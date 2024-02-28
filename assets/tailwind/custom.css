@@ -1,0 +1,45 @@
+/* Custom CSS for states not covered by Tailwind */
+.navbar-link {
+    color: #0ff;
+}
+.navbar-link:visited {
+    color: #0ff;
+}
+.navbar-link:visited:hover {
+    color: #7dff7d;
+}
+.fonts {
+    font-family: Ubuntu, sans-serif, helvetica, arial;
+}
+.blog-link {
+    color: rgb(0, 174, 255);
+}
+.blog-link:visited {
+    color: rgb(0, 174, 255);
+}
+.blog-link:visited:hover {
+    color: #62ff62;
+}
+.fonts {
+    font-family: Ubuntu, sans-serif, helvetica, arial;
+}
+/* Default styles: hidden text, shown on hover */
+.overlay {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.group:hover .overlay {
+    opacity: 1;
+}
+
+/* Styles for xs breakpoint: always show text */
+@media (max-width: 639px) { /* Adjust this value based on your xs breakpoint */
+    .overlay {
+        opacity: 1;
+    }
+}
+.li-custom-marker::before {
+  @apply mr-2; /* Apply margin-right utility */
+  content: '🔗 '; /* Set the content to your emoji */
+}

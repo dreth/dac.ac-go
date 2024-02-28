@@ -1,2 +1,21 @@
-# dac.ac-go
-My site built using Fiber, HTMX and elem-go 
+# dac.ac
+My site built using the Fiber web framework (Go)
+
+## CompileDaemon or air
+
+```shell
+CompileDaemon -command="./dac.ac"
+```
+
+```shell
+air
+```
+
+
+## Tailwind
+
+Autocompile tailwindcss files to css
+
+```shell
+NODE_ENV=production npx tailwindcss -i ./static/assets/tailwind/src/styles.css -o ./static/assets/tailwind/styles.css --watch
+```

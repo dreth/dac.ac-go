@@ -19,3 +19,13 @@
 
 # Go workspace file
 go.work
+tmp
+
+# generated html files
+generated/*
+
+# pyenv .python-version file
+.python-version
+
+# main binary
+main

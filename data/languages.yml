@@ -1,0 +1,146 @@
+content:
+  subtitle:
+    en: "developer, teacher"
+    es: "desarrollador, profesor"
+  welcome:
+    en: "welcome!"
+    es: "bienvenido/a!"
+  about:
+    en: "about me"
+    es: "acerca de mí"
+  blog:
+    en: "blog"
+    es: "blog"
+  about_title:
+    en: "📃 about me"
+    es: "📃 sobre mí"
+  about_full:
+    en: "📃 view full CV"
+    es: "📃 ver mi CV completo"
+  blog_title:
+    en: "🗒️ blog"
+    es: "🗒️ blog"
+  articles_label:
+    en: "articles:"
+    es: "artículos:"
+  prev_article_text:
+    en: "⬅️ Previous article"
+    es: "⬅️ Artículo anterior"
+  next_article_text:
+    en: "➡️ Next article"
+    es: "➡️ Próximo artículo"
+  oldest_article_text:
+    en: "You're currently reading the oldest article"
+    es: "Está leyendo el primer artículo del blog"
+  latest_article_text:
+    en: "You're currently reading the latest article"
+    es: "Está leyendo el artículo más reciente del blog"
+  cool_links:
+    en: "cool links"
+    es: "enlaces cool"
+  cool_links_title:
+    en: "⛓️ cool links"
+    es: "⛓️ enlaces cool"
+  cool_links_full:
+    en: "⛓️ view all cool links"
+    es: "⛓️ ver todos los links cool"
+  random_cool_links:
+    en: "🔄 random cool links"
+    es: "🔄 enlaces cool aleatorios"
+  go_to_random_link:
+    en: "🔮 go to another random link"
+    es: "🔮 ir a otro enlace aleatorio"
+  projects_title:
+    en: "⚗️ projects"
+    es: "⚗️ proyectos"
+  projects:
+    en: "projects"
+    es: "proyectos"
+  projects_we:
+    en: "🧪 projects"
+    es: "🧪 proyectos"
+  playlists:
+    en: "playlists"
+    es: "listas de reproducción"
+  playlists_title:
+    en: "🎶 playlists"
+    es: "🎶 listas de reproducción"
+  playlists_full:
+    en: "🎶 view all playlists"
+    es: "🎶 ver todas las listas"
+  github:
+    en: "github"
+    es: "github"
+  linkedin:
+    en: "linkedin"
+    es: "linkedin"
+  e-mail:
+    en: "e-mail"
+    es: "correo"
+  e-mail_we:
+    en: "✉️ e-mail"
+    es: "✉️ correo"
+  homepage_wikipedia:
+    en: "Some cool Wikipedia articles I read recently:"
+    es: "Algunos articulos cool de Wikipedia que leí recientemente:"
+  homepage_playlist:
+    en: "ambient"
+    es: "ambient"
+  download_cv_link:
+    en: "💾 Download in PDF"
+    es: "💾 Descargar en PDF"
+  theme_lang:
+    en:
+      dark: "dark"
+      light: "light"
+    es:
+      dark: "oscuro"
+      light: "claro"
+  about_me_text:
+    en: "I'm a developer, former data scientist and teacher. I'm passionate about technology, music, finance, blockchains, programming, internet subcultures, online privacy and security, mathematics, linguisitics and languages in general.<br><br>Always open to new challenges and ideas. Feel free to contact me."
+    es: "Soy desarrollador, (antes) data scientist y profesor. Me apasiona la tecnología, música, finanzas, blockchains, la programación, las subculturas de internet, los temas de privacidad de datos y seguridad digital, las matemáticas, la lingüística y los idiomas.<br><br>Siempre abierto a nuevos retos e ideas. Siéntase libre de contactarme."
+  about_me_short:
+    en: "Developer, former data scientist and teacher. I'm passionate about technology, music, blockchains, programming, internet subcultures, online privacy and security, mathematics, linguisitics and languages in general. I find almost everything interesting."
+    es: "Desarrollador, (antes) data scientist y profesor. Me apasiona la tecnología, la música, los blockchains, la programación, las subculturas de internet, los temas de privacidad de datos y seguridad, las matemáticas, la lingüística y los idiomas. Casi todo me parece interesante."
+  other_sites:
+    en: "Other sites:"
+    es: "Otras páginas web:"
+  people_i_admire:
+    en: "People I admire:"
+    es: "Personas que admiro:"
+  language_names:
+    en: "english"
+    es: "español"
+  newsletter_notif:
+    en: "📧 Get notified when I post"
+    es: "📧 Recibe notificaciones cuando publico"
+  newsletter_title:
+    en: "📧 Newsletter"
+    es: "📧 Notificaciones por correo"
+  newsletter:
+    en: "Newsletter"
+    es: "Notificaciones por correo"
+  subscribe_button:
+    en: "Add me to the list"
+    es: "Agrégame a la lista"
+  newsletter_thank_you:
+    en: "Welcome to the mailing list (:<br><br>You'll now receive emails when I post something on my blog."
+    es: "Bienvenido a la lista de correos (:<br><br>Ahora recibirás correos cuando publique algo en mi blog."
+  back_home:
+    en: "Go back to the homepage"
+    es: "Volver a la página principal"
+  unsub_embed:
+    en: "Unsubscribe"
+    es: "Desuscribirse"
+  newsletter_email_updated:
+    en: "Your email has been updated."
+    es: "Tu correo ha sido actualizado."
+  newsletter_unsubscribed:
+    en: "You have been removed from the mailing list."
+    es: "Has sido eliminado de la lista de correos."
+  cv_detail_toggle_1:
+    en: "(show details ↕️)"
+    es: "(mostrar detalles ⬆️)"
+  cv_detail_toggle_0:
+    en: "(hide details ↕️)"
+    es: "(ocultar detalles ⬆️)"

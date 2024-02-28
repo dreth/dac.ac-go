@@ -1,0 +1,67 @@
+---
+articles:
+  flatten_nested_xml_with_xslt:
+    emoji: 🗂️
+    date: 2023, January 15
+    lang: 🇬🇧🇺🇸
+    title: Using XSLT to flatten a nested XML
+  gracias_yayo:
+    emoji: 💚
+    date: 2022, December 12
+    lang: 🇪🇸🇩🇴
+    title: Gracias, yayo
+  improving_your_privacy_security:
+    emoji: 🔐
+    date: 2022, November 16
+    lang: 🇬🇧🇺🇸
+    title: Measures to improve your online privacy and security
+  damn_vulnerable_defi_solutions:
+    emoji: 🕵️
+    date: 2022, October 25
+    lang: 🇬🇧🇺🇸
+    title: Damn Vulnerable DeFi solutions (Brownie)
+  my_first_home_server:
+    emoji: 🧮
+    date: 2022, September 14
+    lang: 🇬🇧🇺🇸
+    title: My first home server
+  capture_the_ether_solutions:
+    emoji: 🥷
+    date: 2022, July 24
+    lang: 🇬🇧🇺🇸
+    title: Capture the Ether solutions
+  ethernaut_solutions:
+    emoji: 💡
+    date: 2022, July 6
+    lang: 🇬🇧🇺🇸
+    title: Ethernaut solutions
+  evaluate_crypto_projects:
+    emoji: 📈
+    date: 2022, March 13
+    lang: 🇬🇧🇺🇸
+    title: Analyzing long-term investments in cryptocurrency projects
+  useful_nfts:
+    emoji: 🖼️
+    date: 2022, February 10
+    lang: 🇬🇧🇺🇸
+    title: Useful NFTs?
+  linux_2020:
+    emoji: 💽
+    date: 2021, January 23
+    lang: 🇬🇧🇺🇸
+    title: My switch (back) to linux as primary OS in 2020
+  vs_code_windows:
+    emoji: 🖥️
+    date: 2020, November 16
+    lang: 🇬🇧🇺🇸
+    title: How to set up a Data Science environment on Windows using Visual Studio Code
+  plantains:
+    emoji: 🇩🇴
+    date: 2020, November 14
+    lang: 🇬🇧🇺🇸
+    title: How a staple of Dominican cuisine, plantains, have helped me manage my Crohn's Disease
+  tutorial_realt:
+    emoji: 🏘️
+    date: 2020, October 13
+    lang: 🇪🇸🇩🇴
+    title: Como invertir en bienes raíces utilizando RealT y blockchain

@@ -14,18 +14,8 @@ import (
 )
 
 func CoolLinks(c *fiber.Ctx) error {
-	// return HTML
-	c.Type("html")
-
-	// content
-	normalizedPath := strings.TrimSuffix(c.Path(), "/")
-	content := components.Content(normalizedPath)
-
-	// CoolLinks page
-	html := components.HTML("Daniel Alonso", "Daniel Alonso", middleware.Lang(c), false, content).Render()
-
-	// return nil
-	return c.SendString(html)
+	// return the full page
+	return components.PageHTML(c, CoolLinksContentHTML(middleware.Lang(c)))
 }
 
 func CoolLinksContent(c *fiber.Ctx) error {

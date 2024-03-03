@@ -1,8 +1,10 @@
 package components
 
 import (
+	"dac.ac/middleware"
 	"github.com/chasefleming/elem-go"
 	"github.com/chasefleming/elem-go/attrs"
+	"github.com/gofiber/fiber/v2"
 )
 
 func HTMLProps() attrs.Props {
@@ -19,10 +21,13 @@ func HTML(Title string, Description string, lang string, Article bool, content *
 	)
 }
 
-func HTMLForTailwind() *elem.Element {
-	return elem.Html(
-		HTMLProps(),
-		Head("Daniel Alonso", "Daniel Alonso's website", false),
-		Body(Content("/cv"), "en"),
-	)
+func PageHTML(c *fiber.Ctx, content *elem.Element) error {
+	// return HTML
+	c.Type("html")
+
+	// Homepage
+	html := HTML("Daniel Alonso", "Daniel Alonso", middleware.Lang(c), false, Content(content)).Render()
+
+	// return nil
+	return c.SendString(html)
 }

@@ -1,8 +1,6 @@
 package pages
 
 import (
-	"strings"
-
 	"dac.ac/components"
 	"dac.ac/middleware"
 	"dac.ac/structs"
@@ -12,18 +10,8 @@ import (
 )
 
 func Blog(c *fiber.Ctx) error {
-	// return HTML
-	c.Type("html")
-
-	// content
-	normalizedPath := strings.TrimSuffix(c.Path(), "/")
-	content := components.Content(normalizedPath)
-
-	// Blog page
-	html := components.HTML("Daniel Alonso", "Daniel Alonso", middleware.Lang(c), false, content).Render()
-
-	// return nil
-	return c.SendString(html)
+	// return the full page
+	return components.PageHTML(c, BlogContentHTML(middleware.Lang(c)))
 }
 
 func BlogContent(c *fiber.Ctx) error {

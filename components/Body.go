@@ -1,21 +1,17 @@
 package components
 
 import (
-	"fmt"
-
 	"github.com/chasefleming/elem-go"
 	"github.com/chasefleming/elem-go/attrs"
-	"github.com/chasefleming/elem-go/htmx"
 )
 
-func Content(defaultHxGet string) *elem.Element {
+func Content(content *elem.Element) *elem.Element {
 	return elem.Div(
 		attrs.Props{
-			attrs.ID:       "content",
-			attrs.Class:    Rt("content flex flex-col justify-center text-justify text-text max-w-4xl xl:max-w-6xl mx-auto px-4 pt-14 pb-6"),
-			htmx.HXGet:     fmt.Sprintf("%s/content", defaultHxGet),
-			htmx.HXTrigger: "load",
+			attrs.ID:    "content",
+			attrs.Class: Rt("content flex flex-col justify-center text-justify text-text max-w-4xl xl:max-w-6xl mx-auto px-4 pt-14 pb-6"),
 		},
+		content,
 	)
 }
 

@@ -20,7 +20,6 @@ func NavbarButton(title string, link string, id string) *elem.Element {
 			htmx.HXGet:            fmt.Sprintf("%s/content", link),
 			htmx.HXTarget:         "#content",
 			htmx.HXPushURL:        link,
-			htmx.HXBoost:          "true",
 			htmx.HXOnAfterRequest: "window.scrollTo(0, 0);",
 		},
 		elem.Div(
@@ -38,7 +37,8 @@ func Navbar(lang string) *elem.Element {
 
 	navbar := elem.Nav(
 		attrs.Props{
-			attrs.Class: "navbar flex justify-center items-center text-center fixed bg-almost-black text-links hover:text-links-hover py-2 w-full z-50 shadow-md h-12 sm:h-14 bg-opacity-60",
+			attrs.Class:  "navbar flex justify-center items-center text-center fixed bg-almost-black text-links hover:text-links-hover py-2 w-full z-50 shadow-md h-12 sm:h-14 bg-opacity-60",
+			htmx.HXBoost: "true",
 		},
 		NavbarButton(text["nav_home"], "/home", utils.RSWD(text_en["nav_home"])),
 		NavbarButton(text["nav_cv"], "/cv", utils.RSWD(text_en["nav_cv"])),

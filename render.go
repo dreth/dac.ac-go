@@ -14,7 +14,10 @@ func RenderComponents() {
 	comps_dir := filepath.Join("generated")
 	os.MkdirAll(comps_dir, 0755)
 
-	os.WriteFile(filepath.Join(comps_dir, "index.html"), []byte(components.HTMLForTailwind().Render()), 0644)
+	// full doc example
+	fullDoc := components.HTML("Daniel Alonso", "Daniel Alonso", "en", false, components.Content(pages.CVContentHTML("en", "expanded"))).Render()
+
+	os.WriteFile(filepath.Join(comps_dir, "index.html"), []byte(fullDoc), 0644)
 	os.WriteFile(filepath.Join(comps_dir, "about-content.html"), []byte(pages.CVContentHTML("en", "expanded").Render()), 0644)
 	os.WriteFile(filepath.Join(comps_dir, "homepage-content.html"), []byte(pages.HomepageContentHTML("en").Render()), 0644)
 	os.WriteFile(filepath.Join(comps_dir, "cool-links-content.html"), []byte(pages.CoolLinksContentHTML("en").Render()), 0644)

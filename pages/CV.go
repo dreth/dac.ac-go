@@ -17,18 +17,8 @@ import (
 )
 
 func CV(c *fiber.Ctx) error {
-	// return HTML
-	c.Type("html")
-
-	// content
-	normalizedPath := strings.TrimSuffix(c.Path(), "/")
-	content := components.Content(normalizedPath)
-
-	// CV page
-	html := components.HTML("Daniel Alonso", "Daniel Alonso", middleware.Lang(c), false, content).Render()
-
-	// return the HTML
-	return c.SendString(html)
+	// return the full page
+	return components.PageHTML(c, CVContentHTML(middleware.Lang(c), CVDetailState(c)))
 }
 
 func CVContent(c *fiber.Ctx) error {

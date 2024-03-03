@@ -13,18 +13,8 @@ import (
 )
 
 func Homepage(c *fiber.Ctx) error {
-	// return HTML
-	c.Type("html")
-
-	// content
-	normalizedPath := "home"
-	content := components.Content(normalizedPath)
-
-	// Homepage
-	html := components.HTML("Daniel Alonso", "Daniel Alonso", middleware.Lang(c), false, content).Render()
-
-	// return nil
-	return c.SendString(html)
+	// return the full page
+	return components.PageHTML(c, HomepageContentHTML(middleware.Lang(c)))
 }
 
 func HomepageContent(c *fiber.Ctx) error {

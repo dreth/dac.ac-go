@@ -21,5 +21,8 @@ COPY --from=builder /build/main .
 COPY --from=builder /build/data ./data
 COPY --from=builder /build/static ./static
 
+# Make ENVIRONMENT production
+ENV ENVIRONMENT=production
+
 # Command to run when starting the container.
 ENTRYPOINT ["/main"]

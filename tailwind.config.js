@@ -15,6 +15,10 @@ module.exports = {
         'light': 'white',
         'text-light': 'black',
         'almost-black': 'rgba(7, 7, 7)',
+        'almost-black-2': 'rgba(9, 9, 9)',
+        'almost-black-3': 'rgba(15, 15, 35)',
+        'almost-black-4': 'rgba(13, 13, 13)',
+        'almost-blue': 'rgba(15, 15, 65)',
         'h1-h3-article-color': 'rgb(129, 193, 253)',
         'h2-article-color': 'rgb(97, 115, 255)',
         'code-block': 'rgb(9, 8, 13)',
@@ -28,7 +32,7 @@ module.exports = {
           }
         ],
       },
-      screens: { 
+      screens: {
         'xs': '374px',
       },
     }
@@ -45,5 +49,6 @@ module.exports = {
         },
       })
     },
+    require('daisyui'),
   ],
 }

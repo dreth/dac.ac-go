@@ -51,6 +51,20 @@ func GetCurriculum() CV {
 	return content
 }
 
+func GetProjects() Project {
+	var content Project
+	ReadAndUnmarshalYAML("projects.yml", &content)
+	return content
+}
+
+func GetProjectsLoc(lang string) orderedmap.OrderedMap[string, ProjectDetail] {
+	projects := GetProjects()
+	if lang == "es" {
+		return projects.Es.Projects
+	}
+	return projects.En.Projects
+}
+
 func GetLanguagesLoc(lang string) map[string]string {
 	langs := GetLanguages()
 	if lang == "es" {

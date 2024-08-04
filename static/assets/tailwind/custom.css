@@ -43,3 +43,7 @@
   @apply mr-2; /* Apply margin-right utility */
   content: '🔗 '; /* Set the content to your emoji */
 }
+
+.imageSource {
+    font-size: 0.6rem;
+}

@@ -27,6 +27,10 @@ func Routes(app *fiber.App) {
 	app.Get("/cool-links", pages.CoolLinks)
 	app.Get("/cool-links/content", pages.CoolLinksContent)
 
+	// Projects
+	app.Get("/projects", pages.Projects)
+	app.Get("/projects/content", pages.ProjectsContent)
+
 	// Playlists
 	app.Get("/playlists", pages.Playlists)
 	app.Get("/playlists/content", pages.PlaylistsContent)
@@ -34,7 +38,6 @@ func Routes(app *fiber.App) {
 	// Social profiles
 	app.Get("/profiles/linkedin", pages.LinkedIn)
 	app.Get("/profiles/github", pages.GitHub)
-	app.Get("/profiles/x", pages.X)
 	app.Get("/profiles/email", pages.Email)
 
 	// toggle language

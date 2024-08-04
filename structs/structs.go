@@ -24,6 +24,25 @@ type Languages struct {
 	Es map[string]string `yaml:"es"`
 }
 
+// ----------------------- Struct for projects.yml ----------------------- //
+
+type Project struct {
+	En ProjectLanguage `yaml:"en"`
+	Es ProjectLanguage `yaml:"es"`
+}
+
+type ProjectLanguage struct {
+	Projects orderedmap.OrderedMap[string, ProjectDetail] `yaml:"projects"`
+}
+
+type ProjectDetail struct {
+	Name        string `yaml:"name"`
+	Emoji       string `yaml:"emoji"`
+	Description string `yaml:"description"`
+	Url         string `yaml:"url"`
+	Repo        string `yaml:"repo"`
+}
+
 // ----------------------- Struct for curriculum.yml ----------------------- //
 type CV struct {
 	En Language `yaml:"en"`
@@ -68,13 +87,13 @@ type SkillsLangs struct {
 }
 
 type LanguageLevel struct {
-	Advanced     string `yaml:"advanced"`
+	Native       string `yaml:"native"`
 	Intermediate string `yaml:"intermediate"`
 	Basic        string `yaml:"basic"`
 }
 
 type LanguageList struct {
-	Advanced     []string `yaml:"advanced"`
+	Native       []string `yaml:"native"`
 	Intermediate []string `yaml:"intermediate"`
 	Basic        []string `yaml:"basic"`
 }

@@ -1,202 +1,87 @@
 ---
-projectHeadings:
-  personal:
-    en: Personal
-    es: Personales
-  job-related:
-    en: Work-related
-    es: Laborales
-  academic:
-    en: Academic
-    es: Académicos
-  unfinished:
-    en: Unfinished
-    es: Sin completar
-projectLinkHeading:
-  github:
-    en: Link to repository
-    es: Enlace al repositorio
-  website:
-    en: Live website
-    es: Página web en vivo
-projectSections:
-  personal:
-    include: true
-    emoji: "🤹"
-  job-related:
-    include: false
-    emoji: "🔨"
-  academic:
-    include: true
-    emoji: "📚"
-  unfinished:
-    include: true
-    emoji: "🚧"
-projectNames:
-  personal:
-  - en: dac.ac
-    es: dac.ac
-  - en: DamnVulnerableDeFi.xyz Challenges in Brownie
-    es: Retos de DamnVulnerableDeFi.xyz en Brownie
-  - en: Web3 messages app
-    es: App de mensajes con web3
-  - en: Birthday reminder script for a Telegram bot
-    es: Script para enviar recordatorios de cumpleaños a través de un bot de Telegram
-  - en: Selenium-based router reboot tool
-    es: Utilidad basada en selenium para reiniciar routers
-  - en: Phishing form spammer
-    es: Spammer para formularios de phishing
-  - en: File downloader from list of links
-    es: Descargador de archivos de una lista de enlaces
-  - en: Mass image converter script
-    es: Conversor de imágenes en masa
-  - en: StakeWise website json translator tool
-    es: Utilidad para traducir el contenido de la página web de StakeWise (en json)
-  - en: DeFi Navy
-    es: DeFi Navy
-  job-related:
-  - ''
-  academic:
-  - en: 'Final master project: "Development of an automatic tool for periodic surveillance
-      of actuarial and demographic indicators"'
-    es: 'Trabajo de fin de máster: "Development of an automatic tool for periodic
-      surveillance of actuarial and demographic indicators"'
-  - en: Predicting HDI, a full pipeline with a focus on preprocessing and EDA.
-    es: Prediciendo IDH, un pipeline completo con enfoque en preprocesamiento y EDA.
-  - en: Simple Dash web app
-    es: Aplicación web sencilla utilizando Dash
-  - en: Simple RShiny web app
-    es: Aplicación web sencilla utilizando RShiny
-  - en: Financial prediction scripts.
-    es: Scripts para predicción de valor de activos.
-  - en: Portfolio efficient frontier calculator script.
-    es: Script para calcular la frontera eficiente de un portafolio de inversión.
-  - en: Plot generator with a simple CL-based menu.
-    es: Generador de gráficos con un menu sencillo de línea de comando.
-  unfinished:
-  - en: Dutch vocabulary anki deck generator with noun articles (lidwoorden)
-    es: Generador de deck de anki para vocabulario neerlandés con artículos para sustantivos
-      (lidwoorden)
-projectDescriptions:
-  personal:
-  - en: My personal website and blog.
-    es: Mi página web personal y blog.
-  - en: Translation from Ethers.js+Hardhat --> Brownie+Hardhat or Brownie+Anvil of
-      the <a class="b" href="https://www.damnvulnerabledefi.xyz/">Damn Vulnerable
-      DeFi challenges</a> by <a class="b" href="https://twitter.com/tinchoabbate">@tinchoabbate</a>
-    es: Traducción de Ethers.js+Hardhat --> Brownie+Hardhat o Brownie+Anvil de los
-      <a class="b" href="https://www.damnvulnerabledefi.xyz/">retos Damn Vulnerable
-      DeFi</a> de <a class="b" href="https://twitter.com/tinchoabbate">@tinchoabbate</a>
-  - en: A simple node+express, vanilla JS messages app that connects to a contract
-      on the blockchain web3js. Messages can be posted using message signatures (posts
-      them to the server DB which is a simple JSON file) or signing transactions (posts/saves
-      the messages to the contract directly on the blockchain).
-    es: Una simple aplicación de mensajes que utiliza node+express y vanilla JS para
-      conectarse con un contrato en el blockchain. Los mensajes pueden ser publicados
-      utilizando firmas (guarda/publica los mensajes en la base de datos del servidor,
-      que es un archivo JSON) o firmando transacciones (guarda/publica los mensajes
-      directamente en el contrato en el blockchain).
-  - en: Simple script that is intended to run as a cron job to read a list of birthdays
-      provided in CSV format and send daily birthday reminders to a personal Telegram
-      account (or channel) through a Telegram bot.
-    es: Script sencillo que está pensado para ser ejecutado como un cron job que lee
-      una lista de cumpleaños que se proveen en formato CSV y envian recordatorios
-      diarios a un usuario personal de Telegram (o canal) a través de un bot de Telegram.
-  - en: Python script that uses selenium and a headless (or not) browser to reboot
-      a router through its web interface.
-    es: Script de Python que utiliza selenium y un navegador con o sin interfaz para
-      reiniciar un router a través de su interfaz web.
-  - en: Python script to spam forms typically used for phishing. Should work for any
-      online form though.
-    es: Script de python para spammear y saturar formularios online típicamente usados
-      para spam. Sin embargo, debería funcionar para cualquier forma.
-  - en: Python script to download files (through curl) using files obtained from a
-      list of links contained in a plaintext file.
-    es: Script de python para descargar archivos (usando curl) extraídos desde una
-      lista de enlaces en un archivo de texto plano.
-  - en: Python script to convert images from any format supported by ffmpeg to another.
-    es: Script de python para convertir imágenes de cualquier formato soportado por
-      ffmpeg a otro.
-  - en: Python script to aid in translating pieces of text from a json that use a
-      specific format.
-    es: Script de python para facilitar la traducción de pedazos de texto desde un
-      json con un formato específico.
-  - en: A simple website to serve as a link directory for decentralized finance applications
-      (DeFi), smart contract platform related websites, Ethereum related websites
-      and all sorts of useful blockchain-related links.
-    es: Una sencilla página web que sirve el propósito de ser un directorio de enlaces
-      relacionados a webs de aplicaciones de finanza decentralizada (DeFi), plataformas
-      de smart contracts, Ethereum y otros enlaces útiles relacionados a temas de
-      blockchain.
-  job-related:
-  - ''
-  academic:
-  - en: An RShiny dashboard showing visualizations of mortality and life expectancy
-      indicators of the Spanish population. The data is queried and preprocessed through
-      a set of Python scripts and the entire application is containerized using Docker.
-    es: Un dashboard de RShiny que muestra visualizaciones de métricas de mortalidad
-      y esperanza de vida de la población de España. La data es obtenida y preprocesada
-      a través de una serie de scripts de Python y la aplicación está contenida en
-      un contenedor de Docker.
-  - en: A simple human development index prediction model using demographic and development
-      variables and implementing a full modelling pipeline with special focus on preprocessing
-      (using Python) and exploratory data analysis (using R).
-    es: Un modelo de predicción estadístico sencillo para predecir índice de desarrollo
-      humano utilizando varias métricas demográficas y de desarrollo e implementando
-      un pipeline completo de modelaje con especial enfoque en preprocesamiento (en
-      Python) y análisis exploratorio (en R).
-  - en: A Dash web app with several interactive plots and a dashboard-like UI using
-      Python.
-    es: Una aplicación web utilizando Dash que incluye varios gráficos interactivos
-      y una interfaz gráfica de tipo dashboard utilizando Python.
-  - en: An RShiny web app similar to the previous Dash app, with interactive plots
-      and a dashboard UI.
-    es: Una aplicación web de RShiny similar a la anteriormente mencionada en Dash,
-      con gráficos interactivos y una interfaz de dashboard.
-  - en: Some cool financial asset price prediction scripts. At the time was a big
-      challenge, but very fun to make.
-    es: Algunos scripts de predicción de precio de activos financieros. Un gran reto
-      en su momento, pero muy divertido.
-  - en: A simple portfolio efficient frontier calculator derived from a boilerplate
-      excel sheet. May not be correct anymore, but was a fun project to try to derive
-      from excel spreadsheets.
-    es: Una calculadora de la frontera eficiente de un  portafolio derivado de una
-      hoja de excel base que nos dieron en clases. Quizás no esté del todo correcto,
-      pero fue entretenido derivar el código de una hoja de cálculo.
-  - en: A simple Python script to generate plots at a precalculus level using matplotlib.
-    es: Un script sencillo de Python utilizando matplotlib para generar gráficos a
-      nivel de precálculo
-  unfinished:
-  - en: While studying dutch I thought community-made, free vocabulary anki decks
-      were quite lackluster on the anki website. Especially because they didn't include
-      articles for nouns (lidwoorden). I never quite got to finish it because other
-      things took priority at the time, but I was almost done with it.
-    es: Mientras estudiaba neerlandés, pensé que los decks para practicar vocabulario
-      que había en la página de anki disponibles para descarga eran de poca calidad.
-      Especialmente porque no incluían artículos para sustantivos (lidwoorden). Nunca
-      llegué a sacar tiempo para terminarlo porque otras cosas tomaron prioridad en
-      su momento, pero faltaba poco.
-projectLinks:
-  personal:
-  - [https://dac.ac, https://github.com/dreth/my-site-template]
-  - https://github.com/dreth/Damn-Vulnerable-DeFi-Brownie
-  - https://github.com/dreth/web3-messages
-  - https://github.com/dreth/BdayReminderBot
-  - https://github.com/dreth/RouterRebootTool
-  - https://github.com/dreth/CodeSnippets/tree/main/phishing_spammer
-  - https://github.com/dreth/CodeSnippets/tree/main/download_link_list_from_txt
-  - https://github.com/dreth/CodeSnippets/tree/main/mass_convert_image_files
-  - https://github.com/dreth/SWJsonTranslations
-  - https://github.com/dreth/DefiNavyWebsite
-  job-related:
-  - ''
-  academic:
-  - https://github.com/dreth/tfm_uc3m
-  - https://github.com/dreth/UC3MStatisticalLearning
-  - https://github.com/dreth/DashTakeaway
-  - https://github.com/dreth/ShinyTakeaway
-  - https://github.com/dreth/ProyectosComplementos
-  - https://github.com/dreth/MarkowitzPortfolio
-  - https://github.com/dreth/ProyectoLogProg
-  unfinished:
-  - https://github.com/dreth/nlVertalingenEnLidwoorden
+en:
+  projects:
+    hbd:
+      name: HBD
+      emoji: 🎂
+      description: A simple web application to keep track of and receive reminders of birthdays through a telegram bot.
+      url: hbd.lotiguere.com
+      repo: github.com/dreth/hbd
+    dac.ac:
+      name: dac.ac (this website)
+      emoji: 🏠
+      description: My personal website, built with Go, Fiber, TailwindCSS, HTMX and elem-go.
+      url: dac.ac
+      repo: github.com/dreth/dac.ac-go
+    neolux_ems:
+      name: Neolux EMS
+      emoji: ⚡
+      description: A complete application for managing several internal manners in Neolux, ranging from seller commissions, invoice generation, and many more features. Built using streamlit. This application is not public, contact for a demo.
+    altserver_docker:
+      name: AltServer-Docker
+      emoji: 📱
+      description: A dockerized version of AltServer-Linux with wifi refresh.
+      repo: github.com/dreth/altserver-docker
+    floppa_landing:
+      name: Floppa Landing
+      emoji: 🐈
+      description: A simple landing page for the $FLOPPA memecoin.
+      url: floppa.wtf
+    birthday_reminder_telegram_bot_script:
+      name: Birthday Reminder Telegram Bot Script
+      emoji: 🎂
+      description: A simple script to receive reminders of birthdays through a telegram bot using a CSV file.
+      repo: github.com/dreth/BdayReminderBot
+    eth_client_systemd_bot:
+      name: Ethereum Client Systemd notifier Bot
+      emoji: 🤖
+      description: A simple bot that continuously notifies when an Ethereum client service  managed by systemd is down.
+      repo: github.com/dreth/EthClientSystemdBot
+    damn_vulnerable_defi_brownie:
+      name: Damn Vulnerable DeFi Brownie environment
+      emoji: 🛡️
+      description: The way I setup my python environment to solve the Damn Vulnerable DeFi CTF.
+      repo: github.com/dreth/damn-vulnerable-defi-brownie
+es:
+  projects:
+    hbd:
+      name: HBD
+      emoji: 🎂
+      description: Una aplicación web simple para llevar un registro y recibir recordatorios de cumpleaños a través de un bot de telegram.
+      url: hbd.lotiguere.com
+      repo: github.com/dreth/hbd
+    dac.ac:
+      name: dac.ac (este sitio web)
+      emoji: 🌐
+      description: Mi sitio web personal, construido usando Go, Fiber, TailwindCSS, HTMX y elem-go.
+      url: dac.ac
+      repo: github.com/dreth/dac.ac
+    altserver_docker:
+      name: AltServer-Docker
+      emoji: 📱
+      description: Una versión dockerizada de AltServer-Linux con wi-fi refresh.
+      repo: github.com/dreth/altserver-docker
+    neolux_ems:
+      name: Neolux EMS
+      emoji: ⚡
+      description: Una aplicación completa para manejar varios asuntos internos en Neolux, que van desde comisiones de vendedores, generación de facturas, y muchas más utilidades. Construido usando streamlit. Esta aplicación no es pública, contácteme para un demo.
+    floppa_landing:
+      name: Floppa Landing
+      emoji: 🐈
+      description: Un portal simple para el memecoin $FLOPPA.
+      url: floppa.wtf
+    birthday_reminder_telegram_bot_script:
+      name: Birthday Reminder Telegram Bot Script
+      emoji: 🎂
+      description: Un script simple para recibir recordatorios de cumpleaños a través de un bot de telegram usando un archivo CSV.
+      repo: github.com/dreth/BdayReminderBot
+    eth_client_systemd_bot:
+      name: Ethereum Client Systemd notifier Bot
+      emoji: 🤖
+      description: Un bot simple que notifica continuamente cuando un servicio de cliente Ethereum administrado por systemd está abajo.
+      repo: github.com/dreth/EthClientSystemdBot
+    damn_vulnerable_defi_brownie:
+      name: Damn Vulnerable DeFi Brownie environment
+      emoji: 🛡️
+      description: La forma en que configuré mi entorno de python para resolver Damn Vulnerable DeFi.
+      repo: github.com/dreth/damn-vulnerable-defi-brownie

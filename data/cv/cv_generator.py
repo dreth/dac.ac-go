@@ -374,14 +374,15 @@ def fill_cv(cv_skeleton, l="en"):
             part1_intro = (
                 "\n\item {" + lang_data[l]["cv_introduction"].split("<br><br>")[0] + "}"
             )
-            part2_intro = (
-                "\n\item {" + lang_data[l]["cv_introduction"].split("<br><br>")[1] + "}"
-            )
+            # part2_intro = (
+            #     "\n\item {" + lang_data[l]["cv_introduction"].split("<br><br>")[1] + "}"
+            # )
 
             # add itemize and structure intro
             intro_text = (
                 r"\begin{itemize} \itemsep-0.24em"
-                + "".join([part1_intro, part2_intro])
+                # + "".join([part1_intro, part2_intro])
+                + part1_intro
                 + "\n"
                 + r"\end{itemize}"
             )
@@ -490,14 +491,17 @@ def fill_cv(cv_skeleton, l="en"):
                 )
 
                 # iterate over languages in section
-                it_item = it_item.replace(
-                    "*language_list*",
-                    "".join([f"{x}, " for x in cv_data[l][section]["list"][level]])[:-2]
-                    + ".",
-                )
+                if cv_data[l][section]["list"][level]:
+                    it_item = it_item.replace(
+                        "*language_list*",
+                        "".join([f"{x}, " for x in cv_data[l][section]["list"][level]])[
+                            :-2
+                        ]
+                        + ".",
+                    )
 
-                # add language level
-                iteration_items += it_item
+                    # add language level
+                    iteration_items += it_item
 
         # items in work section
         if section == "work":

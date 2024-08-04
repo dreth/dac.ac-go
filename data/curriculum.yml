@@ -25,7 +25,7 @@ en:
         dates: "📅 January 2023 - Present"
         location: "📍 Madrid, Spain (remote)"
         schedule: "🕐 Full-time"
-        detail: "- Turning existing software useful. Saved thousands of € monthly on infra/service costs self-hosting software.<br>- Cont. monitoring and management, hosting and deployment of on-premise apps (w/ docker, traefik, Cloudflare)<br>- Python backend development using Django, DRF, FastAPI (REST APIs, GraphQL, ORMs)<br>- Building and maintaining interactive webapps with streamlit and frontend dev. with react<br>- Managing AWS infra (EKS, EC2, S3, ...), developing CI/CD using GH actions<br>- Jira project management, documentation using confluence, software design decisionmaking<br>- Collaborating with our CTO to manage the tech team, code reviews and deployments"
+        detail: "- Turning existing software useful. Saved 1-2k € monthly on infra/service costs self-hosting software.<br>- Cont. monitoring and management, hosting and deployment of on-premise apps (w/ docker, traefik, Cloudflare)<br>- Python backend development using Django, DRF, FastAPI (REST APIs, GraphQL, ORMs)<br>- Building and maintaining interactive webapps with streamlit and frontend dev. with react<br>- Managing AWS infra (EKS, EC2, S3, ...), developing CI/CD using GH actions<br>- Jira project management, documentation using confluence, software design decisionmaking<br>- Collaborating with our CTO to manage the tech team, code reviews and deployments"
       - title: "Career break to study and write"
         institution: "Study break"
         dates: "📅 February 2022 - December 2022"
@@ -78,17 +78,17 @@ en:
     languages:
       heading: "🗺️ Languages"
       level:
-        advanced: "Advanced:"
+        native: "Native:"
         intermediate: "Intermediate:"
         basic: "Basic:"
       list:
-        advanced:
+        native:
           - "🇪🇸🇩🇴 Spanish"
           - "🇺🇸🇬🇧 English"
         intermediate:
-          - "🇳🇱🇧🇪 Dutch"
         basic:
           - "🇲🇾 Malay"
+          - "🇳🇱🇧🇪 Dutch"
           - "🇮🇹 Italian"
     skills:
       heading: "🖥️ Skills"
@@ -107,7 +107,7 @@ en:
           tools1: "Git, GH actions, docker/compose, Kubernetes, CI/CD, networking, linux servers cloud/on-premise."
           tools2: "HTMX, TailwindCSS, Django, DRF, FastAPI, Fiber-go, Gin, React, ORMs. RShiny, Rmd, Dash."
           tools3: "Unix shells (zsh, bash, sh, etc.) y CLIs, SRE. Jira, Confluence. Spreadsheets/MS Office."
-          other1: "Documentation, GH Issues, Blockchain/DeFi, Agile/Scrum, Code reviews, ChatGPT, GIMP."
+          other1: "Documentation, GH Issues, Blockchain/DeFi, Agile/Scrum, Code reviews, OpenAI API, GIMP."
           other2: "Passion for languages, development, teaching, writing, quality, and presenting information."
 
 es:
@@ -137,7 +137,7 @@ es:
         dates: "📅 Enero 2023 - Actualidad"
         location: "📍 Madrid, Spain (remoto)"
         schedule: "🕐 Tiempo completo"
-        detail: "- Hacer el software existente útil. Ahorrar miles de € mensuales en infra/servicios alojando software en premisa.<br>- Monitoreo y gestión continua, hosting y despliegue de aplicaciones en premisa (con docker, traefik, Cloudflare)<br>- Desarrollo de backend en Python usando Django, DRF, FastAPI (REST APIs, GraphQL, ORMs)<br>- Construcción y mantenimiento de aplicaciones web interactivas con streamlit y desarrollo frontend con React<br>- Gestión de infra en AWS (EKS, EC2, S3, ...), desarrollo de CI/CD usando GH actions<br>- Gestión de proyectos Jira, documentación usando confluence, toma de decisiones de diseño de software<br>- Colaborar con nuestro CTO para gestionar el equipo técnico, revisiones de código y despliegues"
+        detail: "- Hacer el software existente útil. Ahorrar 1-2k € mensuales en infra/servicios alojando software en premisa.<br>- Monitoreo y gestión continua, hosting y despliegue de aplicaciones en premisa (con docker, traefik, Cloudflare)<br>- Desarrollo de backend en Python usando Django, DRF, FastAPI (REST APIs, GraphQL, ORMs)<br>- Construcción y mantenimiento de aplicaciones web interactivas con streamlit y desarrollo frontend con React<br>- Gestión de infra en AWS (EKS, EC2, S3, ...), desarrollo de CI/CD usando GH actions<br>- Gestión de proyectos Jira, documentación usando confluence, toma de decisiones de diseño de software<br>- Colaborar con nuestro CTO para gestionar el equipo técnico, revisiones de código y despliegues"
       - title: "Descanso laboral para estudiar y escribir"
         institution: "Estudio propio"
         dates: "📅 Febrero 2022 - Diciembre 2022"
@@ -190,17 +190,17 @@ es:
     languages:
       heading: "🗺️ Idiomas"
       level:
-        advanced: "Avanzado:"
+        native: "Nativo:"
         intermediate: "Intermedio:"
         basic: "Básico:"
       list:
-        advanced:
+        native:
           - "🇪🇸🇩🇴 Español"
           - "🇺🇸🇬🇧 Inglés"
         intermediate:
-          - "🇳🇱🇧🇪 Neerlandés"
         basic:
           - "🇲🇾 Malayo"
+          - "🇳🇱🇧🇪 Neerlandés"
           - "🇮🇹 Italiano"
     skills:
       heading: "🖥️ Habilidades"
@@ -219,5 +219,5 @@ es:
           tools1: "Git, GH actions, docker/compose, Kubernetes, CI/CD, networking, linux servers cloud/en premisa."
           tools2: "HTMX, TailwindCSS, Django, DRF, FastAPI, Fiber-go, Gin, React, ORMs.  RShiny, Rmd, Dash."
           tools3: "Shells de unix (zsh, bash, sh, etc.) y CLIs, SRE. Jira, Confluence. Spreadsheets/MS Office."
-          other1: "Documentación, GH Issues, Blockchain/DeFi, Agile/Scrum, Code reviews, ChatGPT, GIMP."
+          other1: "Documentación, GH Issues, Blockchain/DeFi, Agile/Scrum, Code reviews, OpenAI API, GIMP."
           other2: "Pasión por lenguajes, programación, enseñanza, escritura, calidad y presentación de información."

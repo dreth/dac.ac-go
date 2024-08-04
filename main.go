@@ -1,27 +1,17 @@
 package main
 
 import (
-	"dac.ac/middleware"
-	"dac.ac/routes"
-	"github.com/gofiber/fiber/v2"
+	"log"
+
+	"dac.ac/server"
 )
 
 func main() {
-	// creating fiber app
-	app := fiber.New()
+	// run the server
+	app := server.ServerWithRender()
 
-	// Middlewares
-	app.Use(middleware.Language())
-
-	// Static files
-	app.Static("/", "./static")
-
-	// render components
-	RenderComponents()
-
-	// routes
-	routes.Routes(app)
-
-	// start app
-	app.Listen(":8080")
+	// Start the app
+	if err := app.Listen(":8080"); err != nil {
+		log.Fatalf("Failed to start server: %v", err)
+	}
 }

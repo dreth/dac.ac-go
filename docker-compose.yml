@@ -1,5 +1,4 @@
-version: '3.8'
-
+---
 services:
   dac.ac:
     container_name: dac.ac
@@ -7,3 +6,19 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dacac.rule=Host(`dac.ac`) || Host(`www.dac.ac`)"
+      - "traefik.http.routers.dacac.entrypoints=websecure"
+      - "traefik.http.routers.dacac.tls.certresolver=myresolver"
+      - "traefik.http.services.dacac.loadbalancer.server.port=8080"
+    environment:
+      - ENVIRONMENT=production
+
+networks:
+  proxy:
+    external: true

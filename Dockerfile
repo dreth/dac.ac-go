@@ -20,7 +20,6 @@ FROM scratch
 COPY --from=builder /build/main .
 COPY --from=builder /build/data ./data
 COPY --from=builder /build/static ./static
-COPY --from=builder /build/geoip ./geoip
 
 # Make ENVIRONMENT production
 ENV ENVIRONMENT=production

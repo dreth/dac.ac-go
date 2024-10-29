@@ -8,10 +8,10 @@ python data/cv/cv_generator.py
 CGO_ENABLED=0 
 GOOS="linux" 
 GOARCH="amd64"
-go build -ldflags="-s -w" -o dac.ac .
+go build -ldflags="-s -w" -o dac.sg .
 
 # generate the HTML files for tailwind
-./dac.ac &
+./dac.sg &
 # Save the PID of the server process
 SERVER_PID=$!
 

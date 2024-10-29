@@ -1,35 +1,38 @@
 package server
 
 import (
-	"dac.ac/middleware"
-	"dac.ac/routes"
+	"dac.sg/middleware"
+	"dac.sg/routes"
 	"github.com/gofiber/fiber/v2"
 )
 
 func Server() *fiber.App {
-	// creating fiber app
+	// Create Fiber app
 	app := fiber.New()
 
-	// Middlewares
+	// Other middlewares
 	app.Use(middleware.Language())
 
 	// Serve static files
-	app.Static("/", "./static")
+	app.Static("/", "./static", fiber.Static{
+		MaxAge:   31536000,
+		Compress: true,
+	})
 
-	// routes
+	// Register routes
 	routes.Routes(app)
 
-	// Errors
+	// Handle not found errors
 	app.Use(middleware.NotFound())
 
-	// return the app
+	// Return the configured app
 	return app
 }
 
 func ServerWithRender() *fiber.App {
-	// Render components
+	// Render components (assuming RenderComponents is defined elsewhere)
 	RenderComponents()
 
-	// Create the app
+	// Create and return the server
 	return Server()
 }

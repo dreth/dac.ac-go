@@ -3,7 +3,7 @@ package routes_test
 import (
 	"testing"
 
-	"dac.ac/server"
+	"dac.sg/server"
 	"github.com/stretchr/testify/assert"
 )
 

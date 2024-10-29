@@ -1,10 +1,10 @@
-# dac.ac
+# dac.sg
 My site built using the Fiber web framework (Go)
 
 ## CompileDaemon or air
 
 ```shell
-CompileDaemon -command="./dac.ac"
+CompileDaemon -command="./dac.sg"
 ```
 
 ```shell

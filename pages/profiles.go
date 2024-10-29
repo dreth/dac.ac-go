@@ -11,5 +11,5 @@ func GitHub(c *fiber.Ctx) error {
 }
 
 func Email(c *fiber.Ctx) error {
-	return c.Redirect("mailto:d@dac.ac")
+	return c.Redirect("mailto:contact@m.dac.sg")
 }

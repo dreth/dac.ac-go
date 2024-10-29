@@ -164,3 +164,6 @@ dist
 # generated html from tests
 tests/generated
 */generated
+
+# compressed files
+*.fiber.gz

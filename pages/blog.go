@@ -1,9 +1,9 @@
 package pages
 
 import (
-	"dac.ac/components"
-	"dac.ac/middleware"
-	"dac.ac/structs"
+	"dac.sg/components"
+	"dac.sg/middleware"
+	"dac.sg/structs"
 	"github.com/chasefleming/elem-go"
 	"github.com/chasefleming/elem-go/attrs"
 	"github.com/gofiber/fiber/v2"

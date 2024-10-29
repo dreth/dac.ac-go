@@ -2,13 +2,13 @@ package pages
 
 import (
 	"fmt"
-	"path"
 	"strings"
 
-	"dac.ac/components"
-	"dac.ac/middleware"
-	"dac.ac/structs"
-	"dac.ac/utils"
+	"dac.sg/components"
+	"dac.sg/constants"
+	"dac.sg/middleware"
+	"dac.sg/structs"
+	"dac.sg/utils"
 
 	"github.com/chasefleming/elem-go"
 	"github.com/chasefleming/elem-go/attrs"
@@ -106,7 +106,7 @@ func CVContentHTML(lang string, state string) *elem.Element {
 				},
 				elem.A(
 					attrs.Props{
-						attrs.Href:  path.Join("cv", CVFilename(lang)),
+						attrs.Href:  constants.ResourceWithCDN(fmt.Sprintf("/cv/%s", CVFilename(lang))),
 						attrs.Class: components.RtS("text-links hover:text-links-hover"),
 					},
 					elem.Span(

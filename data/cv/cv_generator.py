@@ -62,9 +62,9 @@ cv_data = {"en": {}, "es": {}}
 
 # basic links
 basic_links = {
-    "website": {"link": "https://dac.ac", "name": "dac.ac"},
+    "website": {"link": "https://dac.sg", "name": "dac.sg"},
     "github": {"link": "https://github.com/dreth", "name": "@dreth"},
-    "email": {"link": "mailto:daniel@m.dac.ac", "name": "d@dac.ac"},
+    "email": {"link": "mailto:d@dac.sg", "name": "d@dac.sg"},
     "linkedin": {"link": "https://linkedin.com/in/dreth", "name": "@dreth"},
 }
 
@@ -331,8 +331,8 @@ cv_blocks = {
 \section{*projects*}
 \textbf{*projects:text*}""",
         "text": {
-            "en": "View all my \href{https://dac.ac/blog}{articles}, and \href{https://www.linkedin.com/in/dreth/details/certifications/}{certifications}.",
-            "es": "Ver todos/as mis, \href{https://dac.ac/blog}{artículos}, y \href{https://www.linkedin.com/in/dreth/details/certifications/}{certificaciones}.",
+            "en": "View all my \href{https://dac.sg/blog}{articles}, and \href{https://www.linkedin.com/in/dreth/details/certifications/}{certifications}.",
+            "es": "Ver todos/as mis, \href{https://dac.sg/blog}{artículos}, y \href{https://www.linkedin.com/in/dreth/details/certifications/}{certificaciones}.",
         },
         "closing_tag": "",
     },

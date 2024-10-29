@@ -42,14 +42,14 @@ func Analytics() *elem.Element {
 			attrs.Props{
 				attrs.Async: "true",
 				attrs.Defer: "true",
-				attrs.Src:   "https://sa.dac.ac/latest.js",
+				attrs.Src:   "https://sa.dac.sg/latest.js",
 			},
 		),
 		elem.NoScript(
 			nil,
 			elem.Img(
 				attrs.Props{
-					attrs.Src:            "https://sa.dac.ac/noscript.gif",
+					attrs.Src:            "https://sa.dac.sg/noscript.gif",
 					attrs.Alt:            "",
 					attrs.Referrerpolicy: "no-referrer-when-downgrade",
 				},

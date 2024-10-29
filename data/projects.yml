@@ -2,16 +2,21 @@
 en:
   projects:
     hbd:
-      name: HBD
+      name: hbd
       emoji: 🎂
       description: A simple web application to keep track of and receive reminders of birthdays through a telegram bot.
       url: hbd.lotiguere.com
       repo: github.com/dreth/hbd
-    dac.ac:
-      name: dac.ac (this website)
+    hbd-cli: 
+      name: hbd-cli
+      emoji: 🎂
+      description: A cli tool for the hbd project.
+      repo: github.com/dreth/hbd-cli
+    dac.sg:
+      name: dac.sg / dac.ac (this website)
       emoji: 🏠
-      description: My personal website, built with Go, Fiber, TailwindCSS, HTMX and elem-go.
-      url: dac.ac
+      description: My personal website, built with Go, Fiber, TailwindCSS, HTMX and elem-go. Hosted on an EC2 instance.
+      url: dac.sg
       repo: github.com/dreth/dac.ac-go
     neolux_ems:
       name: Neolux EMS
@@ -45,17 +50,22 @@ en:
 es:
   projects:
     hbd:
-      name: HBD
+      name: hbd
       emoji: 🎂
       description: Una aplicación web simple para llevar un registro y recibir recordatorios de cumpleaños a través de un bot de telegram.
       url: hbd.lotiguere.com
       repo: github.com/dreth/hbd
-    dac.ac:
-      name: dac.ac (este sitio web)
+    hbd-cli:
+      name: hbd-cli
+      emoji: 🎂
+      description: Una interfaz de linea de comando para hbd.
+      repo: github.com/dreth/hbd-cli
+    dac.sg:
+      name: dac.sg (este sitio web)
       emoji: 🌐
       description: Mi sitio web personal, construido usando Go, Fiber, TailwindCSS, HTMX y elem-go.
-      url: dac.ac
-      repo: github.com/dreth/dac.ac
+      url: dac.sg
+      repo: github.com/dreth/dac.sg
     altserver_docker:
       name: AltServer-Docker
       emoji: 📱

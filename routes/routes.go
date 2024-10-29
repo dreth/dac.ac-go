@@ -1,10 +1,10 @@
 package routes
 
 import (
-	"dac.ac/middleware"
-	"dac.ac/pages"
-	"dac.ac/structs"
-	"dac.ac/utils"
+	"dac.sg/middleware"
+	"dac.sg/pages"
+	"dac.sg/structs"
+	"dac.sg/utils"
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -45,6 +45,9 @@ func Routes(app *fiber.App) {
 
 	// Articles
 	app.Get("/blog/:article", pages.Article)
+
+	// Health check
+	app.Get("/health", utils.HealthCheck)
 }
 
 func ToggleLang(c *fiber.Ctx) error {

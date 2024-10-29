@@ -1,7 +1,7 @@
 package components
 
 import (
-	"dac.ac/constants"
+	"dac.sg/constants"
 	"github.com/chasefleming/elem-go"
 	"github.com/chasefleming/elem-go/attrs"
 )
@@ -40,7 +40,7 @@ func Head(Title string, Description string, Article bool) *elem.Element {
 		}),
 		elem.Meta(attrs.Props{
 			"property":    "og:url",
-			attrs.Content: "https://dac.ac",
+			attrs.Content: "https://dac.sg",
 		}),
 		elem.Meta(attrs.Props{
 			"property":    "og:title",
@@ -62,7 +62,7 @@ func Head(Title string, Description string, Article bool) *elem.Element {
 		}),
 		elem.Meta(attrs.Props{
 			"property":    "twitter:url",
-			attrs.Content: "https://dac.ac",
+			attrs.Content: "https://dac.sg",
 		}),
 		elem.Meta(attrs.Props{
 			"property":    "twitter:title",

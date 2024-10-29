@@ -3,8 +3,8 @@ package components
 import (
 	"fmt"
 
-	"dac.ac/structs"
-	"dac.ac/utils"
+	"dac.sg/structs"
+	"dac.sg/utils"
 	"github.com/chasefleming/elem-go"
 	"github.com/chasefleming/elem-go/attrs"
 	"github.com/chasefleming/elem-go/htmx"

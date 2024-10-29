@@ -3,7 +3,7 @@ package structs_test
 import (
 	"testing"
 
-	"dac.ac/structs"
+	"dac.sg/structs"
 	"github.com/stretchr/testify/assert"
 )
 

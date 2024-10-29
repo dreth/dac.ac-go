@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"dac.ac/constants"
-	"dac.ac/middleware"
-	"dac.ac/structs"
+	"dac.sg/constants"
+	"dac.sg/middleware"
+	"dac.sg/structs"
 	"github.com/chasefleming/elem-go"
 	"github.com/chasefleming/elem-go/attrs"
 	"github.com/chasefleming/elem-go/htmx"

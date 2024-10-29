@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"dac.ac/server"
+	"dac.sg/server"
 )
 
 func TestServer(t *testing.T) {

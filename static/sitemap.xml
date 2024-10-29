@@ -2,117 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://dac.ac/</loc>
+    <loc>/</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://dac.ac/home</loc>
+    <loc>/home</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/cv</loc>
+    <loc>/cv</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog</loc>
+    <loc>/blog</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/cool-links</loc>
+    <loc>/cool-links</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/playlists</loc>
+    <loc>/playlists</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/flatten_nested_xml_with_xslt</loc>
+    <loc>/blog/flatten_nested_xml_with_xslt</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/gracias_yayo</loc>
+    <loc>/blog/gracias_yayo</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/improving_your_privacy_security</loc>
+    <loc>/blog/improving_your_privacy_security</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/damn_vulnerable_defi_solutions</loc>
+    <loc>/blog/damn_vulnerable_defi_solutions</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/my_first_home_server</loc>
+    <loc>/blog/my_first_home_server</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://dac.ac/cv/Daniel_CV_en.pdf</loc>
+    <loc>/cv/Daniel_CV_en.pdf</loc>
     <lastmod>2024-06-09T21:14:04+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/capture_the_ether_solutions</loc>
+    <loc>/blog/capture_the_ether_solutions</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/ethernaut_solutions</loc>
+    <loc>/blog/ethernaut_solutions</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/evaluate_crypto_projects</loc>
+    <loc>/blog/evaluate_crypto_projects</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/useful_nfts</loc>
+    <loc>/blog/useful_nfts</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/linux_2020</loc>
+    <loc>/blog/linux_2020</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/vs_code_windows</loc>
+    <loc>/blog/vs_code_windows</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/plantains</loc>
+    <loc>/blog/plantains</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/blog/tutorial_realt</loc>
+    <loc>/blog/tutorial_realt</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/profiles/github</loc>
+    <loc>/profiles/github</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/profiles/linkedin</loc>
+    <loc>/profiles/linkedin</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://dac.ac/profiles/email</loc>
+    <loc>/profiles/email</loc>
     <lastmod>2024-06-20T14:39:56+00:00</lastmod>
     <priority>0.64</priority>
   </url>

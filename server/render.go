@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"dac.ac/components"
-	"dac.ac/pages"
-	"dac.ac/structs"
+	"dac.sg/components"
+	"dac.sg/pages"
+	"dac.sg/structs"
 )
 
 func RenderComponents() {

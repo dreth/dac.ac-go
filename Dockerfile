@@ -11,7 +11,7 @@ RUN go mod download
 COPY . .
 
 # Set necessary environment variables needed for our image and build the API server.
-ENV CGO_ENABLED=0 GOOS=linux GOARCH=amd64
+ENV CGO_ENABLED=0 GOOS=linux GOARCH=arm64
 RUN go build -ldflags="-s -w" -o main .
 
 FROM scratch
@@ -20,6 +20,7 @@ FROM scratch
 COPY --from=builder /build/main .
 COPY --from=builder /build/data ./data
 COPY --from=builder /build/static ./static
+COPY --from=builder /build/geoip ./geoip
 
 # Make ENVIRONMENT production
 ENV ENVIRONMENT=production

@@ -1,7 +1,7 @@
 package components
 
 import (
-	"dac.ac/middleware"
+	"dac.sg/middleware"
 	"github.com/chasefleming/elem-go"
 	"github.com/chasefleming/elem-go/attrs"
 	"github.com/gofiber/fiber/v2"

@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"dac.ac/utils"
+	"dac.sg/utils"
 	"github.com/gofiber/fiber/v2"
 	"golang.org/x/text/language"
 )

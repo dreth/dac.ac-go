@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/valyala/fasthttp"
 
-	"dac.ac/middleware"
-	"dac.ac/server"
+	"dac.sg/middleware"
+	"dac.sg/server"
 )
 
 func TestLang(t *testing.T) {
